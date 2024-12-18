@@ -5,10 +5,10 @@ import React, { useState } from "react"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"
 
 const navLinks = [
-    { title: "About", path: "/about" },
-    { title: "Portfolio", path: "/portfolio" },
-    { title: "Stack", path: "/stack" },
-    { title: "Contact", path: "/contact" },
+    { title: "About", path: "#about" },
+    { title: "Portfolio", path: "#portfolio" },
+    { title: "Stack", path: "#stack" },
+    { title: "Contact", path: "#contact" },
 ]
 
 export const Navbar = () => {
@@ -30,7 +30,7 @@ export const Navbar = () => {
                         <li key={index}>
                             <Link
                                 href={link.path}
-                                className="transform hover:text-white/50 transition-all duration-300 ease-in-out"
+                                className="transform hover:text-purple-400 transition-all duration-300 ease-in-out"
                             >
                                 {link.title}
                             </Link>

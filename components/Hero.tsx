@@ -30,14 +30,14 @@ export const Hero = () => {
             style={{
                 backgroundImage
             }}
-            className="relative grid min-h-screen place-content-center overflow-hidden px-4 py-24 text-gray-200"
+            className="relative grid min-h-screen place-content-center overflow-hidden px-4 py-24 text-purple-200"
         >
             <div className="z-10 flex flex-col items-center">
-                <span className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
+                <span className="mb-3 inline-block rounded-full bg-purple-600/50 px-3 py-1.5 text-sm">
                     Available for Collaboration
                 </span>
-                <h1 className="text-white/40 text-5xl md:text-7xl font-black">Hi, I am</h1>
-                <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text font-black leading-tight text-transparent text-5xl md:text-7xl">Joshua Muasya</h1>
+                <h1 className="text-purple-500 text-5xl md:text-7xl font-black">Hi, I am</h1>
+                <h1 className="max-w-3xl bg-gradient-to-br from-white to-purple-400 bg-clip-text font-black leading-tight text-transparent text-5xl md:text-7xl">Joshua Muasya</h1>
                 <div>
                     <Image
                         src={profilepic}
