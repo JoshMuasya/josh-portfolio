@@ -1,13 +1,38 @@
 "use client"
 
 const services = [
-    { id: '01', title: 'Web Design', description: 'Crafting visually stunning and user-friendly websites tailored to your brand\'s identity and goals.' },
-    { id: '02', title: 'SEO Optimization', description: 'Enhancing your website\'s visibility and ranking on search engines through strategic keyword integration and technical optimization.' },
-    { id: '03', title: 'UX/UI Design', description: 'Creating intuitive and engaging user experiences and interfaces that prioritize user satisfaction and ease of use.' },
-    { id: '04', title: 'Digital Marketing', description: 'Strategizing and executing comprehensive digital marketing campaigns to boost your online presence and engagement.' },
-    { id: '05', title: 'Content Creation', description: 'Crafting engaging and relevant content, including blogs, videos, and graphics, to connect with your audience and enhance your brand story.' },
-    { id: '06', title: 'Social Media Management', description: 'Managing your social media channels to build brand awareness, engage your audience, and grow your online presence.' }
-]
+    { 
+        id: '01', 
+        title: 'Web Development', 
+        description: 'Building high-performance websites and web applications using Next.js, React.js, and Tailwind CSS for modern, scalable, and responsive solutions.' 
+    },
+    { 
+        id: '02', 
+        title: 'SEO Optimization', 
+        description: 'Implementing advanced SEO strategies to enhance website visibility and ranking, ensuring your site is optimized for both users and search engines.' 
+    },
+    { 
+        id: '03', 
+        title: 'UX/UI Design', 
+        description: 'Designing intuitive and visually engaging user interfaces with a focus on user-centric experiences, leveraging tools like Figma and Tailwind CSS.' 
+    },
+    { 
+        id: '04', 
+        title: 'Custom Software Development', 
+        description: 'Creating tailored software solutions using Python and Kotlin to solve business challenges and deliver robust, scalable applications.' 
+    },
+    { 
+        id: '05', 
+        title: 'Mobile App Development', 
+        description: 'Developing dynamic and user-friendly mobile applications for Android and iOS using Flutter and Kotlin, designed to meet your specific needs.' 
+    },
+    { 
+        id: '06', 
+        title: 'Cybersecurity Solutions', 
+        description: 'Providing advanced cybersecurity services to protect your applications and data, ensuring secure operations and user trust.' 
+    }
+];
+
 
 export const Services = () => {
 

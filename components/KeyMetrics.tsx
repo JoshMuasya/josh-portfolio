@@ -6,19 +6,19 @@ import { motion, useInView } from 'framer-motion'
 const metrics = [
     {
         id: 1,
-        value: '5+',
+        value: '4+',
         label: 'Years of Experience',
         description: 'Dedicated to honing my skills in full-stack development.',
     },
     {
         id: 2,
-        value: '50+',
+        value: '30+',
         label: 'Projects Completed',
         description: 'From small applications to complex web platforms.',
     },
     {
         id: 3,
-        value: '10+',
+        value: '8+',
         label: 'Technologies Mastered',
         description: 'Proficient in various programming languages and frameworks.',
     },

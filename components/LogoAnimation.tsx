@@ -7,24 +7,29 @@ import fiverr from "@/public/fiverr.png"
 import elementor from "@/public/elementor.png"
 import logitech from "@/public/logitech.png"
 import oracle from "@/public/oracle.png"
+import figma from "@/public/figma.png"
 
 const images = [
-    { src: udemy, alt: "figma" },
+    { src: udemy, alt: "udemy" },
+    { src: figma, alt: "figma" },
     { src: fiverr, alt: "fiverr" },
     { src: elementor, alt: "elementor" },
     { src: logitech, alt: "logitech" },
     { src: oracle, alt: "oracle" },
-    { src: udemy, alt: "figma" },
+    { src: udemy, alt: "udemy" },
+    { src: figma, alt: "figma" },
     { src: fiverr, alt: "fiverr" },
     { src: elementor, alt: "elementor" },
     { src: logitech, alt: "logitech" },
     { src: oracle, alt: "oracle" },
-    { src: udemy, alt: "figma" },
+    { src: udemy, alt: "udemy" },
+    { src: figma, alt: "figma" },
     { src: fiverr, alt: "fiverr" },
     { src: elementor, alt: "elementor" },
     { src: logitech, alt: "logitech" },
     { src: oracle, alt: "oracle" },
-    { src: udemy, alt: "figma" },
+    { src: udemy, alt: "udemy" },
+    { src: figma, alt: "figma" },
     { src: fiverr, alt: "fiverr" },
     { src: elementor, alt: "elementor" },
     { src: logitech, alt: "logitech" },

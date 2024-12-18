@@ -7,56 +7,48 @@ import { useMotionTemplate, useMotionValue, motion, animate } from "framer-motio
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#DD335C"]
 
 const projects = [
+    
     {
         id: 1,
-        name: 'E-Commerce Platform',
-        description: 'A fully functional e-commerce web application built with Next.js 14, Tailwind CSS, and integrated payment gateways.',
-        image: '/proj10.png',
-        link: 'https://example.com/ecommerce',
+        name: 'Nyiha Mathenge Advocates',
+        description: 'A modern and fully functional e-commerce platform tailored for legal services, featuring Next.js 14, and Tailwind CSS.',
+        image: '/nma.jpg',
+        link: '',
         year: 2024
     },
     {
         id: 2,
-        name: 'Travel Booking Website',
-        description: 'A dynamic website for booking tours and travels, featuring React.js frontend and a Node.js/Python backend.',
-        image: '/proj10.png',
-        link: 'https://example.com/travel-booking',
+        name: 'Nefea',
+        description: 'A dynamic website designed for an African forestry organization, showcasing initiatives, resources, and opportunities for sustainable forestry management using Next.js 14, and Tailwind CSS.',
+        image: '/nefea.jpg',
+        link: '',
         year: 2023
     },
     {
         id: 3,
-        name: 'Portfolio Website',
-        description: 'A responsive portfolio website developed with Next.js, showcasing projects, skills, and client testimonials.',
-        image: '/proj10.png',
-        link: 'https://example.com/portfolio',
+        name: 'Meshack Portfolio Website',
+        description: 'A visually captivating and responsive portfolio site developed with Next.js, designed to highlight projects, technical skills, and client testimonials effectively.',
+        image: '/meshack.jpg',
+        link: '',
         year: 2023
     },
     {
         id: 4,
-        name: 'Cybersecurity Dashboard',
-        description: 'A dashboard to monitor security threats and analytics, built using Next.js and Python API integrations.',
-        image: '/proj10.png',
-        link: 'https://example.com/cybersecurity',
-        year: 2024
+        name: 'Digimatic Website',
+        description: 'A sleek and innovative website developed for a tech company, showcasing their services, products, and expertise. Built using Next.js with Python-driven API integrations.',
+        image: '/digimatic.jpg',
+        link: '',
+        year: 2023
     },
     {
         id: 5,
-        name: 'Event Management Platform',
-        description: 'A platform for event scheduling, bookings, and vendor management, designed with modern UI/UX principles using React and Tailwind.',
-        image: '/proj10.png',
-        link: 'https://example.com/event-management',
-        year: 2022
+        name: 'Business Support Platform',
+        description: 'A powerful platform enabling businesses to manage operations on the go, offering tools for scheduling, booking, and vendor management. Built with Next.js, styled with Tailwind CSS and a python-powered Backend.',
+        image: '/business.jpg',
+        link: '',
+        year: 2023
     },
-    {
-        id: 6,
-        name: 'Graphic Design Showcase',
-        description: 'A visual gallery of custom graphics, logos, and UI/UX designs, optimized for smooth performance.',
-        image: '/proj10.png',
-        link: 'https://example.com/graphic-showcase',
-        year: 2022
-    }
 ];
-
 
 export const Portfolio = () => {
     const [selectedProject, setSelectedProject] = useState(projects[0]);
@@ -83,7 +75,7 @@ export const Portfolio = () => {
         >
             <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12">
                 <div>
-                    <h2 className="text-6xl font-bold mb-10">Selected <span className="text-purple-400">Projects</span></h2>
+                    <h2 className="text-6xl font-bold mb-10">My <span className="text-purple-400">Projects</span></h2>
                     {projects.map((project) => (
                         <div
                             key={project.id}
@@ -112,7 +104,7 @@ export const Portfolio = () => {
                 <Image
                     src={selectedProject.image}
                     alt={selectedProject.name}
-                    className="rounded-xl shadow-lg transition-opacity duration-500 ease-in-out"
+                    className="rounded-xl shadow-lg transition-opacity duration-500 ease-in-out sticky top-20"
                     width={800}
                     height={450}
                 />
