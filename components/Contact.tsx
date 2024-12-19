@@ -18,7 +18,7 @@ export const Contact = () => {
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
-                        className="text-7xl font-bold text-purple-300"
+                        className="text-5xl md:text-7xl font-bold text-purple-300"
                     >
                         Get in <span className="text-purple-500">Touch</span>
                     </motion.h2>
@@ -27,7 +27,7 @@ export const Contact = () => {
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.6, delay: 0.4 }}
-                        className="glass p-8 rounded-2xl space-y-8"
+                        className="glass p-2 md:p-8 rounded-xl md:rounded-2xl space-y-8"
                     >
                         <div className="space-y-2">
                             <p className="text-lg text-purple-300">Phone</p>
