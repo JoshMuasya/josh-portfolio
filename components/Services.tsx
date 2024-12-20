@@ -39,7 +39,7 @@ export const Services = () => {
     return (
         <section className="py-20 px-2 md:px-0">
             <div className="container mx-auto flex flex-col md:flex-row">
-                <div className="md:w-1/4 pr-8 mb-12 md:mb-0">
+                <div className="md:w-1/4 pr-8 md:pr-12 mb-12 md:mb-0">
                     <h2 className="text-6xl text-purple-300 font-extrabold sticky top-20">SERVICES</h2>
                 </div>
 
