@@ -25,6 +25,8 @@ export const Hero = () => {
     const border = useMotionTemplate`1px solid ${color}`
     const boxShadow = useMotionTemplate`0px 4px 24px ${color}`
 
+    
+
     return (
         <motion.section
             style={{
@@ -88,6 +90,11 @@ export const Hero = () => {
                         scale: 0.985
                     }}
                     className="flex w-fit items-center gap-2 rounded-full px-4 py-2"
+                    onClick={() => {
+                        const cvFile = "/joshua.pdf";
+        
+                        window.open(cvFile, "_blank");
+                    }}
                 >
                     Download CV
                     <FiArrowRight />
