@@ -25,7 +25,7 @@ export const Hero = () => {
     const border = useMotionTemplate`1px solid ${color}`
     const boxShadow = useMotionTemplate`0px 4px 24px ${color}`
 
-    
+
 
     return (
         <motion.section
@@ -39,7 +39,9 @@ export const Hero = () => {
                     Available for Collaboration
                 </span>
                 <h1 className="text-purple-500 text-5xl md:text-7xl font-black">Hi, I am</h1>
-                <h1 className="max-w-3xl bg-gradient-to-br from-white to-purple-400 bg-clip-text font-black leading-tight text-transparent text-5xl md:text-7xl text-center">Joshua Muasya</h1>
+                <h1 className="max-w-3xl bg-gradient-to-br from-white to-purple-400 md:from-white md:to-purple-400 bg-clip-text font-black leading-tight text-transparent text-5xl md:text-7xl text-center">
+                    Joshua Muasya
+                </h1>
                 <div>
                     <Image
                         src={profilepic}
@@ -92,7 +94,7 @@ export const Hero = () => {
                     className="flex w-fit items-center gap-2 rounded-full px-4 py-2"
                     onClick={() => {
                         const cvFile = "/joshua.pdf";
-        
+
                         window.open(cvFile, "_blank");
                     }}
                 >
