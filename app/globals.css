@@ -72,6 +72,12 @@ body {
 
 }
 
+@media (max-width: 768px) {
+  .mobile-gradient {
+    background: linear-gradient(to bottom, white, purple);
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

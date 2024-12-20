@@ -39,8 +39,8 @@ export const Hero = () => {
                     Available for Collaboration
                 </span>
                 <h1 className="text-purple-500 text-5xl md:text-7xl font-black">Hi, I am</h1>
-                <h1 className="max-w-3xl bg-gradient-to-br from-white to-purple-400 md:from-white md:to-purple-400 bg-clip-text font-black leading-tight text-transparent text-5xl md:text-7xl text-center">
-                    Joshua Muasya
+                <h1 className="max-w-3xl font-black leading-tight text-purple-500 text-5xl md:text-7xl text-center">
+                    <span className="text-purple-300">Joshua</span> Muasya
                 </h1>
                 <div>
                     <Image
