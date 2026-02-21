@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { IoLogoJavascript } from 'react-icons/io';
-import { SiNextdotjs, SiReact, SiPython, SiWordpress, SiPhp, SiKotlin, SiFlutter, SiElementor, SiTypescript } from 'react-icons/si';
+import { SiNextdotjs, SiReact, SiPython, SiTypescript } from 'react-icons/si';
 
 const stackItems = [
     { id: 1, name: 'Next.js', icon: SiNextdotjs, color: '#000000' },     // Next.js (Black)
