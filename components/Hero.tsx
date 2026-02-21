@@ -3,8 +3,6 @@
 import { animate, motion, useMotionTemplate, useMotionValue } from "framer-motion"
 import { useEffect } from "react"
 import Image from "next/image"
-import profilepic from "@/public/profilepic.png"
-import obj from "@/public/obj1.png"
 import { FiArrowRight } from "react-icons/fi"
 
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#DD335C"]
@@ -44,7 +42,7 @@ export const Hero = () => {
                 </h1>
                 <div>
                     <Image
-                        src={profilepic}
+                        src='/profilepic.png'
                         alt="Profile Picture"
                         width={250}
                         height={250}
@@ -53,22 +51,25 @@ export const Hero = () => {
 
                 <div className="flex bg-white/10 rounded-3xl shadow-xl p-3 justify-center items-center space-x-2 mb-4">
                     <Image
-                        src={obj}
+                        src='/obj1.png'
                         alt="Object"
+                        height={30}
                         width={30}
                         className="rounded-2xl mx-auto"
                     />
 
                     <Image
-                        src={obj}
+                        src='/obj1.png'
                         alt="Object"
+                        height={30}
                         width={30}
                         className="rounded-2xl mx-auto"
                     />
 
                     <Image
-                        src={obj}
+                        src='/obj1.png'
                         alt="Object"
+                        height={30}
                         width={30}
                         className="rounded-2xl mx-auto"
                     />

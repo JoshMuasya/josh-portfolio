@@ -9,51 +9,35 @@ const COLORS_TOP = ["#13FFAA", "#1E67C6", "#DD335C"];
 const projects = [
     {
         id: 1,
-        name: 'Twilight Luxe Creations',
-        description: 'Twilight Luxe Creations is a premier event planning and management company dedicated to delivering bespoke experiences through innovative design, meticulous coordination, and exceptional service. I designed and developed their website to effectively showcase their diverse offerings, emphasizing user-centric functionality and an elegant, professional online presence.',
-        image: '/Luxe.PNG',
-        link: 'https://twilight-luxe-creations.vercel.app/',
-        year: 2025
+        name: "Nyiha-Mathenge Advocates",
+        description:
+            "A full-service law firm website built to establish trust and credibility. Features service breakdowns, lawyer profiles, a blog section, and client contact options with a clean, modern design.",
+        image: "/nma.png",
+        link: "https://nyihamathengelaw.com/",
     },
     {
         id: 2,
-        name: 'Nyiha Mathenge Advocates',
-        description: 'A modern and fully functional e-commerce platform tailored for legal services, featuring Next.js 14, and Tailwind CSS.',
-        image: '/nma.jpeg',
-        link: '',
-        year: 2024
+        name: "Gatherly",
+        description:
+            "Gatherly is an innovative event management platform built to streamline event planning, coordination, and guest engagement. It will feature RSVP management, role-based access (admins, organizers, and staff), real-time updates, and an intuitive dashboard for seamless control. Designed with a modern, user-friendly interface and scalable architecture, Gatherly aims to simplify both small and large-scale event operations. The project is currently in progress, with core functionalities actively being developed and refined.",
+        image: "/gatherly.png",
+        link: "https://gatherly-three-rho.vercel.app/",
     },
     {
         id: 3,
-        name: 'Nefea',
-        description: 'A dynamic website designed for an African forestry organization, showcasing initiatives, resources, and opportunities for sustainable forestry management using Next.js 14, and Tailwind CSS.',
-        image: '/nefea.jpeg',
-        link: '',
-        year: 2023
+        name: "Wilhide Bakers – Website",
+        description:
+            "A clean, elegant, and mobile-friendly website for Wilhide Bakers, designed with Next.js and Tailwind CSS. The platform highlights bakery products, custom cake options, and smooth browsing experiences. Features such as online ordering, animations, and admin management are currently under development.",
+        image: "/wilhide.png",
+        link: "https://wilhade-bakers.vercel.app/",
     },
     {
         id: 4,
-        name: 'Meshack Portfolio Website',
-        description: 'A visually captivating and responsive portfolio site developed with Next.js, designed to highlight projects, technical skills, and client testimonials effectively.',
-        image: '/meshack.jpeg',
-        link: '',
-        year: 2023
-    },
-    {
-        id: 5,
-        name: 'Digimatic Website',
-        description: 'A sleek and innovative website developed for a tech company, showcasing their services, products, and expertise. Built using Next.js with Python-driven API integrations.',
-        image: '/digimatic.jpeg',
-        link: '',
-        year: 2023
-    },
-    {
-        id: 6,
-        name: 'Business Support Platform',
-        description: 'A powerful platform enabling businesses to manage operations on the go, offering tools for scheduling, booking, and vendor management. Built with Next.js, styled with Tailwind CSS and a python-powered Backend.',
-        image: '/business.jpeg',
-        link: '',
-        year: 2023
+        name: "NEFEA – Network on Forest Enterprises in Africa",
+        description:
+            "An international NGO website dedicated to promoting African gums and resins as key non-timber forest products. Includes organizational history, mission, resources, and initiatives across Africa.",
+        image: "/nefea.png",
+        link: "https://www.nefea.org/",
     },
 ];
 
@@ -89,9 +73,6 @@ export const Portfolio = () => {
                             className="cursor-pointer mb-8 group"
                             onClick={() => setSelectedProject(project)}
                         >
-                            <p className="text-purple-400 text-lg mb-2">
-                                {project.year}
-                            </p>
                             <h3 className={`text-3xl font-semibold group-hover:text-purple-400 transition-colors
                         ${selectedProject.id === project.id ? 'text-purple-200' : ''} duration-300`}>
                                 {project.name}
